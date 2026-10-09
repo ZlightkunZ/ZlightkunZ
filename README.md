@@ -1,15 +1,16 @@
 # Hi, I'm ZlightkunZ 👋
-**Detection Engineer | Blue Team | Security Automation Specialist**
+**Senior Security Engineer | Enterprise On-Premise Blue Team | Active Directory Defense**
 
-I focus on building production-grade detections, automating threat triage, and mapping adversary tradecraft to the MITRE ATT&CK® framework.
+I specialize in **On-Premise Infrastructure Blue Teaming**: defending Active Directory (AD DS), Windows Server environments, and Enterprise endpoints against advanced persistent threats (APTs). I engineer high-fidelity detections for complex internal network attacks like DCSync, Kerberoasting, and NTLM Relaying.
 
 ---
 
-### 🛡️ Core Competencies & Tooling
-- **Detection Formats:** Sigma, YARA, Suricata / Snort, KQL (Sentinel), SPL (Splunk), EQL (Elastic)
-- **Languages & Scripting:** Python, PowerShell, Go, Bash
-- **Methodologies:** Detection-as-Code (DaC), MITRE ATT&CK®, CI/CD Validation
-- **Platforms & Analysis:** Windows Event Logs (EVTX), Sysmon, Linux Auditd, Zeek
+### 🛡️ Defensive Engineering & Core Competencies
+- **Active Directory Defense:** DCSync/DCShadow, Kerberos Anomaly Detection, BloodHound Mitigation, Group Policy (GPO)
+- **Windows Internals & Telemetry:** Advanced EVTX Parsing, Sysmon Tuning, ETW (Event Tracing for Windows)
+- **Detection-as-Code (DaC):** Sigma, YARA, Suricata / Zeek (NDR), KQL, SPL
+- **Incident Response Tooling:** Python (OOP, strict typing), PowerShell (Empire/Bloodhound forensics)
+- **Advanced Threat Frameworks:** MITRE ATT&CK® (Enterprise/Windows), Cyber Kill Chain
 
 ---
 
@@ -17,8 +18,10 @@ I focus on building production-grade detections, automating threat triage, and m
 
 | Repository | Focus Area | Key Highlights |
 | :--- | :--- | :--- |
-| [**detection-rules**](https://github.com/ZlightkunZ/detection-rules) | Detection Engineering | Production Sigma & YARA rules with automated GitHub Actions CI/CD validation |
-| [**triage-toolkit**](https://github.com/ZlightkunZ/triage-toolkit) | DFIR / Tooling | High-performance Python tools for parsing logs and enriching IOCs |
+| [**DomainForge**](https://github.com/ZlightkunZ/domain-forge) | Infrastructure / Lab | Complete IaC and documentation for a Windows Server 2022 Active Directory attack/defend lab featuring WEF and Sysmon |
+| [**Argus-Detections**](https://github.com/ZlightkunZ/argus-detections) | Detection Engineering | Production DaC pipeline covering deep **Active Directory** attacks (Event ID 4662/4769), Sysmon anomalies, and ML threats |
+| [**EvtxHound**](https://github.com/ZlightkunZ/evtx-hound) | Endpoint Forensics | Enterprise-grade Python `.evtx` log parsers featuring explicit Threat Models (STRIDE) and strict CI/CD gating |
+| [**PromptGuard**](https://github.com/ZlightkunZ/prompt-guard) | SecOps / Edge Cases | Specialized telemetry tools bridging the gap between traditional on-prem SOCs and modern AI gateways |
 
 ---
 

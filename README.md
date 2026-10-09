@@ -18,10 +18,10 @@ I specialize in **On-Premise Infrastructure Blue Teaming**: defending Active Dir
 
 | Repository | Focus Area | Key Highlights |
 | :--- | :--- | :--- |
-| [**DomainForge**](https://github.com/ZlightkunZ/domain-forge) | Infrastructure / Lab | Complete IaC and documentation for a Windows Server 2022 Active Directory attack/defend lab featuring WEF and Sysmon |
+| [**DomainForge**](https://github.com/ZlightkunZ/domain-forge) | Infrastructure / Lab | Complete IaC and documentation for a Windows Server 2022 AD lab. Includes **empirical evidence logs (`EVIDENCE.md`)** of simulated Kerberoasting & DCSync attacks. |
 | [**Argus-Detections**](https://github.com/ZlightkunZ/argus-detections) | Detection Engineering | Production DaC pipeline covering deep **Active Directory** attacks (Event ID 4662/4769), Sysmon anomalies, and ML threats |
-| [**EvtxHound**](https://github.com/ZlightkunZ/evtx-hound) | Endpoint Forensics | Enterprise-grade Python `.evtx` log parsers featuring explicit Threat Models (STRIDE) and strict CI/CD gating |
-| [**PromptGuard**](https://github.com/ZlightkunZ/prompt-guard) | SecOps / Edge Cases | Specialized telemetry tools bridging the gap between traditional on-prem SOCs and modern AI gateways |
+| [**EvtxHound**](https://github.com/ZlightkunZ/evtx-hound) | Endpoint Forensics | Enterprise-grade Python `.evtx` log parsers. Includes structured **SIEM alert evidence (`sample_alert.json`)** proving high-fidelity detection of weaponized Office payloads. |
+| [**PromptGuard**](https://github.com/ZlightkunZ/prompt-guard) | SecOps / Edge Cases | Specialized telemetry tools bridging traditional on-prem SOCs and modern AI gateways. Includes **JSON evidence logs (`evidence_logs.json`)** of mitigated prompt injections. |
 
 ---
 
